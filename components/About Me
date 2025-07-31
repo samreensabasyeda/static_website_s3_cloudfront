@@ -1,0 +1,33 @@
+<section id="about" class="about-section py-5" style="padding: 3rem 1rem;">
+  <div class="container" style="max-width: 960px; margin: auto;">
+    <h2 class="text-center mb-5 fw-bold text-primary" style="text-align: center; margin-bottom: 2rem; color: #007bff;">About Me</h2>
+
+    <div class="row align-items-center" style="display: flex; flex-wrap: wrap; align-items: center;">
+      <div class="col-md-4 text-center mb-4 mb-md-0" style="flex: 0 0 33.3333%; max-width: 33.3333%; text-align: center; margin-bottom: 1.5rem;">
+        <img
+          src="assets/Avi.jpg"
+          alt="Profile"
+          class="rounded-circle shadow"
+          style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);"
+        />
+      </div>
+      <div class="col-md-8" style="flex: 0 0 66.6666%; max-width: 66.6666%;">
+        <div class="card shadow p-4 border-0 bg-white bg-opacity-75" style="background-color: rgba(255, 255, 255, 0.9); padding: 1.5rem; border: none; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+          <h4 class="text-dark mb-3" style="margin-bottom: 1rem; color: #333;">Cloud & DevOps Engineer | MLOps Enthusiast</h4>
+          <p class="text-muted">
+            I am an experienced Cloud and DevOps Engineer with a strong background in managing scalable cloud infrastructure, automating CI/CD pipelines, and enhancing software delivery using tools like <strong>AWS</strong>, <strong>Docker</strong>, <strong>Kubernetes</strong>, <strong>Terraform</strong>, and <strong>Jenkins</strong>.
+          </p>
+          <p class="text-muted">
+            I have successfully deployed and managed robust cloud-native environments, optimized system performance, and ensured seamless production releases across AWS ecosystems.
+          </p>
+          <p class="text-muted">
+            I am deeply passionate about <strong>MLOps</strong>—bridging the gap between machine learning and operations. My interests lie in building end-to-end ML pipelines using tools like <strong>MLflow</strong>, <strong>FastAPI</strong>, <strong>Airflow</strong>, <strong>SageMaker</strong>, and <strong>GitHub Actions</strong>, while ensuring reproducibility, scalability, and observability through monitoring with <strong>Prometheus</strong> and <strong>Grafana</strong>.
+          </p>
+          <p class="text-muted mb-0">
+            I’m driven by solving complex challenges, delivering business value through automation, and continuously learning to stay at the forefront of DevOps and MLOps innovation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
