@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syeda Samreen Saba - DevOps Engineer</title>
 
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+
+  <!-- AOS Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <style>
+    body.dark-mode {
+      background-color: #111;
+      color: #f1f1f1;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+    }
+
+    .hero {
+      padding: 100px 0;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+
+    .btn-toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 999;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+      background: #007bff;
+      color: white;
+      padding: 10px;
+      border-radius: 50%;
+      text-decoration: none;
+      z-index: 999;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Dark Mode Toggle -->
+  <button class="btn btn-secondary btn-toggle" onclick="toggleTheme()">Toggle Dark Mode</button>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <span class="navbar-brand">Portfolio</span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero" data-aos="zoom-in">
+    <div class="container">
+      <h1>Syeda Samreen Saba</h1>
+      <p>DevOps Engineer | Cloud Engineer | MLOps Enthusiast</p>
+      <a href="resume.pdf" class="btn btn-primary mt-3">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" data-aos="fade-up">
+    <div class="container">
+      <h2><i class="fas fa-user"></i> About Me</h2>
+      <p>I'm a DevOps Engineer with a keen interest in MLOps and AI technologies.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-light" data-aos="fade-up">
+    <div class="container">
+      <h2><i class="fas fa-tools"></i> Skills</h2>
+      <ul>
+        <li><i class="fab fa-docker"></i> Docker & Kubernetes</li>
+        <li><i class="fas fa-code"></i> CI/CD (Jenkins, GitHub Actions)</li>
+        <li><i class="fab fa-aws"></i> AWS (SAGEMAKER, RDS, Lambda, EC2, S3, IAM)</li>
+        <li><i class="fas fa-code"></i> IaC Terraform </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2><i class="fas fa-envelope"></i> Contact</h2>
+      <p>Email: <a href="mailto:syedasamreen@example.com">syedasamreen@example.com</a></p>
+      <p>Phone: +91 9591883506</p>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#hero" class="back-to-top">↑</a>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Syeda Samreen Saba. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
